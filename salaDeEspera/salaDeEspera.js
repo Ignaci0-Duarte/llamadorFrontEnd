@@ -1,5 +1,7 @@
 // Establecer conexión WebSocket con el servidor
-const ws = new WebSocket("ws://llamador-consultorio.vercel.app");
+const ws = new WebSocket(
+  "wss://llamadorpuntocardio-d37f8860669d.herokuapp.com"
+);
 
 // Manejar eventos al abrir la conexión WebSocket
 ws.addEventListener("open", function (event) {

@@ -1,5 +1,7 @@
 // Establecer conexión WebSocket con el servidor
-const ws = new WebSocket("ws://llamador-consultorio.vercel.app");
+const ws = new WebSocket(
+  "wss://llamadorpuntocardio-d37f8860669d.herokuapp.com"
+);
 
 // Manejar eventos al abrir la conexión WebSocket
 ws.addEventListener("open", function (event) {
@@ -8,7 +10,7 @@ ws.addEventListener("open", function (event) {
 
 // Manejar eventos de error en la conexión WebSocket
 ws.addEventListener("error", function (error) {
-  console.error("Error en la conexión WebSocket:", error);
+  console.log("Error en la conexión WebSocket:", error);
 });
 
 // Manejar el envío de datos del formulario al hacer clic en el botón "Enviar"
