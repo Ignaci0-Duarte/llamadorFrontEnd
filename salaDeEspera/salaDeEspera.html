@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sala de Espera</title>
+    <link
+      rel="shortcut icon"
+      href="../resources/icono.png"
+      type="image/x-icon"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./salaDeEspera.css" />
+  </head>
+  <body class="pt-0 mt-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <img
+            src="../resources/puntoCardioNav.jpeg"
+            class="img-small img-fluid mx-auto d-block mt-2"
+            alt="Imagen nav"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="mb-0 mt-1 actual">PACIENTE ACTUAL</h1>
+          <div id="nombrePaciente" class="nombre-paciente mt-0"></div>
+          <h2 id="nombreConsultorio" class="consultorio mt-1 fw-bold"></h2>
+          <h2 class="mb-2 mt-3 siguiente">SIGUIENTE EN FILA</h2>
+          <div id="nombreSiguiente" class="nombre-siguiente mt-0"></div>
+        </div>
+      </div>
+    </div>
+
+    <audio id="alertaSonido" src="alerta.mp3" preload="auto"></audio>
+
+    <div class="footer">
+      <img src="../resources/puntoCardioFooter.jpg" alt="Imagen Footer" />
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="salaDeEspera.js"></script>
+  </body>
+</html>

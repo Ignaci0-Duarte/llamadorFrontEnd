@@ -1,0 +1,34 @@
+body {
+  background-color: #ffffff;
+}
+.nombre-paciente {
+  font-size: 3.5em;
+  text-align: center;
+  color: #e43027;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+}
+.footer img {
+  height: 120px;
+}
+.img-small {
+  height: 100px;
+}
+.nombre-siguiente {
+  font-size: 2em;
+  text-align: center;
+  color: #e43027;
+}
+.siguiente {
+  color: #616161;
+}
+.actual {
+  font-size: 3em;
+}

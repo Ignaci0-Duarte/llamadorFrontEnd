@@ -1,0 +1,16 @@
+body {
+  background-color: #f8f9fa;
+  padding-top: 50px;
+}
+.container {
+  max-width: 600px;
+}
+.nombre-paciente {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 20px;
+}
+.btn-enviar {
+  font-size: 1.5em;
+  width: 100%;
+}
