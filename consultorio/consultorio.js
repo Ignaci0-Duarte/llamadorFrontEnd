@@ -114,7 +114,8 @@ if (btnEnviar) {
 
     // Verificar que los campos no estén vacíos
     if (nombreActual === "" || nombreSiguiente === "") {
-      console.error("Los campos no pueden estar vacíos.");
+      console.error("Los campos no pueden estar vacíos");
+      alert("Los campos no pueden estar vacíos");
       return;
     }
 
